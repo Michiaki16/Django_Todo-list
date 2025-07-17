@@ -6,18 +6,16 @@ A simple task management web app built using Django. Users can create, update, d
 
 ## 🚀 Features
 
-- User registration and login/logout
-- Task list view with completed & remaining task count
-- Add, update, view, and delete tasks
-- Clean UI with a bluish theme
-- Admin panel access to manage tasks and users
+- 🧑‍💻 User Authentication (Login & Logout)
+- ✅ Create / Read / Update / Delete tasks
+- 📊 Task completion and remaining counters
+- 🎨 Clean and User-friendly UI
+- 🛠️ Admin panel to manage tasks and users
 
 ---
 
-## 📸 Screenshots
+## 📸 UI Design 
 
-*(Optional: Add screenshots here)*  
-Example:
 
 ![Task List UI](UI.png)
 
@@ -34,11 +32,12 @@ Example:
 
 ## 📂 Project Structure
 
+```text
 Django_Todo-list/
-├── base/ # Core app (models, views, templates)
-│ ├── templates/
-│ └── static/
-├── todo_list/ # Project config (settings, urls)
-├── db.sqlite3 # SQLite DB
+├── base/               # Core app (models, views, templates)
+│   ├── templates/
+│   └── static/
+├── todo_list/          # Project config (settings, urls)
+├── db.sqlite3          # SQLite DB
 ├── manage.py
 └── README.md
