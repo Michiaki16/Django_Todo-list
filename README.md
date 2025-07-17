@@ -41,6 +41,7 @@ Django_Todo-list/
 ├── db.sqlite3          # SQLite DB
 ├── manage.py
 └── README.md
+``` 
 
 ## 💻 How to Run Locally
 
@@ -53,3 +54,67 @@ Follow these steps to get the project running on your local machine:
 ```bash
 git clone https://github.com/your-username/Django_Todo-list.git
 cd Django_Todo-list
+```
+
+---
+
+### 2. 🐍 Create a Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+---
+
+### 3. ✅ Activate the Virtual Environment
+
+```bash
+# On macOS/Linux:
+source venv/bin/activate
+
+# On Windows:
+venv\Scripts\activate
+```
+
+---
+
+### 4. 📦 Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 5. 📂 Apply Migrations
+
+```bash
+python manage.py migrate
+```
+
+---
+
+### 6. 🔐 Create a Superuser
+
+```bash
+python manage.py createsuperuser
+```
+
+> Follow the prompts to set your username, email, and password.
+
+---
+
+### 7. 🚀 Run the Server
+
+```bash
+python manage.py runserver
+```
+
+---
+
+### 8. 🌐 Open the App in Your Browser
+
+- Home: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+- Admin Panel: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
+
+---
