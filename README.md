@@ -1,4 +1,4 @@
-# 🗒️ Django Todo List
+# 🗒️ Fullstack To Do List Using Django
 
 A simple task management web app built using Django. Users can create, update, delete, and view their to-do items. Includes user authentication to ensure tasks are personalized per user.
 
