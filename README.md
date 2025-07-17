@@ -52,7 +52,7 @@ Follow these steps to get the project running on your local machine:
 ### 1. 🧬 Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Django_Todo-list.git
+git clone https://github.com/Michiaki16/Django_Todo-list.git
 cd Django_Todo-list
 ```
 
