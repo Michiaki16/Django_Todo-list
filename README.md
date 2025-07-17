@@ -42,12 +42,12 @@ Django_Todo-list/
 ├── manage.py
 └── README.md
 ``` 
-
+---
 ## 💻 How to Run Locally
 
 Follow these steps to get the project running on your local machine:
 
----
+
 
 ### 1. 🧬 Clone the Repository
 
@@ -56,15 +56,13 @@ git clone https://github.com/your-username/Django_Todo-list.git
 cd Django_Todo-list
 ```
 
----
-
 ### 2. 🐍 Create a Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
----
+
 
 ### 3. ✅ Activate the Virtual Environment
 
@@ -76,7 +74,7 @@ source venv/bin/activate
 venv\Scripts\activate
 ```
 
----
+
 
 ### 4. 📦 Install Dependencies
 
@@ -84,7 +82,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
+
 
 ### 5. 📂 Apply Migrations
 
@@ -92,7 +90,7 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
----
+
 
 ### 6. 🔐 Create a Superuser
 
@@ -102,7 +100,7 @@ python manage.py createsuperuser
 
 > Follow the prompts to set your username, email, and password.
 
----
+
 
 ### 7. 🚀 Run the Server
 
@@ -110,11 +108,11 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
----
+
 
 ### 8. 🌐 Open the App in Your Browser
 
 - Home: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 - Admin Panel: [http://127.0.0.1:8000/admin/](http://127.0.0.1:8000/admin/)
 
----
+
