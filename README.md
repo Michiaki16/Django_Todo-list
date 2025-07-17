@@ -41,3 +41,15 @@ Django_Todo-list/
 ├── db.sqlite3          # SQLite DB
 ├── manage.py
 └── README.md
+
+## 💻 How to Run Locally
+
+Follow these steps to get the project running on your local machine:
+
+---
+
+### 1. 🧬 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/Django_Todo-list.git
+cd Django_Todo-list
